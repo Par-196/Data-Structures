@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22493FA8-6C22-4195-B03A-56F077B987AC}|DataStructures\\DataStructures.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22493FA8-6C22-4195-B03A-56F077B987AC}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DataStructures\\Program.cs",
+              "RelativeDocumentMoniker": "DataStructures\\Program.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DataStructures\\Program.cs",
+              "RelativeToolTip": "DataStructures\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T01:51:23.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
