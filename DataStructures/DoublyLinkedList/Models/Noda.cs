@@ -9,5 +9,14 @@ namespace DoublyLinkedList.Models
     public class Noda
     {
         private Data Date { get; set; }
+        private Noda PreviousNode { get; set; }
+        private Noda NextNode { get; set; }
+
+        public Noda(Data data) 
+        {
+            Date = data;
+            PreviousNode = null;
+            NextNode = null;
+        }
     }
 }
