@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedList.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\doublylinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedList.csproj|solutionrelative:doublylinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{22493FA8-6C22-4195-B03A-56F077B987AC}|DataStructures\\DataStructures.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22493FA8-6C22-4195-B03A-56F077B987AC}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -20,14 +24,37 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Program.cs",
+              "RelativeDocumentMoniker": "DoublyLinkedList\\Program.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Program.cs",
+              "RelativeToolTip": "DoublyLinkedList\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T18:23:22.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DataStructures\\Program.cs",
               "RelativeDocumentMoniker": "DataStructures\\Program.cs",
               "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DataStructures\\Program.cs",
               "RelativeToolTip": "DataStructures\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T01:51:23.823Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

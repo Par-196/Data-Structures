@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures
+namespace DoublyLinkedList
 {
     public class Program
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }

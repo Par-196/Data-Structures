@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures
+namespace DoublyLinkedList.Models
 {
-    public class Program
+    public class DoublyLinkedList
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
