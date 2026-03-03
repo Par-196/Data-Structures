@@ -8,5 +8,6 @@ namespace DoublyLinkedList.Models
 {
     public class DoublyLinkedList
     {
+
     }
 }
