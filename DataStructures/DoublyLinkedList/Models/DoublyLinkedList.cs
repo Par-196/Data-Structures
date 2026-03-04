@@ -8,8 +8,8 @@ namespace DoublyLinkedListProject.Models
 {
     public class DoublyLinkedList
     {
-        private Noda Head { get; set; }
-        private Noda Tail { get; set; }
+        private Node Head { get; set; }
+        private Node Tail { get; set; }
         private int Count { get; set; }
 
 
@@ -18,15 +18,26 @@ namespace DoublyLinkedListProject.Models
             
         }
 
-        public void AddAfter(Noda node, Noda newNode)
+        public void AddAfter(Node node, Node newNode)
         {
             node.InsertNewNodaAfterNoda(newNode);
         }
 
-        public void AddAfter(Noda node, Data data)
+        public void AddAfter(Node node, Data data)
         {
-            Noda newNoda = new Noda(data);
+            Node newNoda = new Node(data);
             AddAfter(node, newNoda);
+        }
+
+        public void AddBefore(Node node, Node newNode)
+        {
+            node.InsertNewNodaBeforeNoda(newNode);
+        }
+
+        public void AddBefore(Node node, Data data)
+        {
+            Node newNoda = new Node(data);
+            AddBefore(node, newNoda);
         }
 
     }

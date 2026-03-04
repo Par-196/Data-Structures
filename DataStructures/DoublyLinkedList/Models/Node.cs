@@ -7,21 +7,21 @@ using System.Xml.Linq;
 
 namespace DoublyLinkedListProject.Models
 {
-    public class Noda
+    public class Node
     {
         private Data Date { get; set; }
-        private Noda NextNode { get; set; }
-        private Noda PreviousNode { get; set; }
+        private Node NextNode { get; set; }
+        private Node PreviousNode { get; set; }
         
 
-        public Noda(Data data) 
+        public Node(Data data) 
         {
             Date = data;
             NextNode = null;
             PreviousNode = null;
         }
 
-        public void InsertNewNodaAfterNoda(Noda newNode)
+        public void InsertNewNodaAfterNoda(Node newNode)
         {
             newNode.NextNode = NextNode;
             newNode.PreviousNode = this;
@@ -30,6 +30,14 @@ namespace DoublyLinkedListProject.Models
             NextNode = newNode;
         }
 
+        public void InsertNewNodaBeforeNoda(Node newNode)
+        {
+            newNode.PreviousNode = PreviousNode;
+            newNode.NextNode = this;
+
+            PreviousNode.NextNode = newNode;
+            PreviousNode = newNode;
+        }
 
     }
 }
