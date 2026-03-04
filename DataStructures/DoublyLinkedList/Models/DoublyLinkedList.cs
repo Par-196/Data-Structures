@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DoublyLinkedList.Models
+namespace DoublyLinkedListProject.Models
 {
-    public class DoublyLinkedList<T>
+    public class DoublyLinkedList
     {
         private Noda Head { get; set; }
         private Noda Tail { get; set; }
@@ -20,11 +20,14 @@ namespace DoublyLinkedList.Models
 
         public void AddAfter(Noda node, Noda newNode)
         {
-            node.ConnectNewNodaToNext(newNode);
-            newNode.ConnectNewNodaToPrevious(node);
+            node.InsertNewNodaAfterNoda(newNode);
         }
 
-        
+        public void AddAfter(Noda node, Data data)
+        {
+            Noda newNoda = new Noda(data);
+            AddAfter(node, newNoda);
+        }
 
     }
 }

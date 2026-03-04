@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DoublyLinkedList.Models
+namespace DoublyLinkedListProject.Models
 {
     public class Data
     {

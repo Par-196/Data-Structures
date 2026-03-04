@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace DoublyLinkedList.Models
+namespace DoublyLinkedListProject.Models
 {
     public class Noda
     {
@@ -21,19 +21,15 @@ namespace DoublyLinkedList.Models
             PreviousNode = null;
         }
 
-        public void ConnectNewNodaToNext(Noda newNode)
+        public void InsertNewNodaAfterNoda(Noda newNode)
         {
             newNode.NextNode = NextNode;
-
-            NextNode = newNode;
+            newNode.PreviousNode = this;
 
             NextNode.PreviousNode = newNode;
+            NextNode = newNode;
         }
 
-        public void ConnectNewNodaToPrevious(Noda node)
-        {
-            PreviousNode = node;
-        }
 
     }
 }
