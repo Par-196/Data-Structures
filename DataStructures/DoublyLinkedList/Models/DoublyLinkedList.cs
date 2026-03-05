@@ -18,19 +18,6 @@ namespace DoublyLinkedListProject.Models
             
         }
 
-        public void AddFirst(Node node)
-        {
-            if (node.IsPreviousNodeNull())
-            {
-                Head = node;
-            }
-            if (node.IsNextNodeNull())
-            {
-                Tail = node;
-            }
-            Count++;
-        }
-
         public void AddAfter(Node node, Node newNode)
         {
             if (node.ProvideNextNode() == null)
@@ -63,6 +50,50 @@ namespace DoublyLinkedListProject.Models
                 Head = newNode;
             AddBefore(node, newNode);
             Count++;
+        }
+
+        public void AddFirst(Node newNode)
+        {
+            Head.InsertNewNodeBeforeOldOne(newNode);
+            Head = newNode;
+            Count++;
+        }
+
+        public void AddFirst(Data data)
+        {
+            Node newNode = new Node(data);
+            Head.InsertNewNodeBeforeOldOne(newNode);
+            Head = newNode;
+            Count++;
+        }
+
+        public void AddLast(Node newNode)
+        {
+            Tail.InsertNewNodeAfterOldOne(newNode);
+            Tail = newNode;
+            Count++;
+        }
+
+        public void AddLast(Data data)
+        {
+            Node newNode = new Node(data);
+            Head.InsertNewNodeAfterOldOne(newNode);
+            Head = newNode;
+            Count++;
+        }
+
+        public void RemoveFirst()
+        {
+            Head = Head.ProvideNextNode();
+            Head.RemoveHead();
+            Count--;
+        }
+
+        public void RemoveLast()
+        {
+            Tail = Tail.ProvidePreviousNode();
+            Tail.RemoveTail();
+            Count--;
         }
 
     }

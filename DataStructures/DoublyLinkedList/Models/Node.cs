@@ -58,5 +58,27 @@ namespace DoublyLinkedListProject.Models
             PreviousNode.NextNode = newNode;
             PreviousNode = newNode;
         }
+
+        public void InsertNewNodeBeforeOldOne(Node newNode)
+        {
+            PreviousNode = newNode;
+            newNode.NextNode = this;
+        }
+
+        public void InsertNewNodeAfterOldOne(Node newNode)
+        {
+            NextNode = newNode;
+            newNode.PreviousNode = this;
+        }
+
+        public void RemoveHead()
+        {
+            PreviousNode = null;
+        }
+
+        public void RemoveTail()
+        {
+            NextNode = null;
+        }
     }
 }
