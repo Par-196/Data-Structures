@@ -21,7 +21,27 @@ namespace DoublyLinkedListProject.Models
             PreviousNode = null;
         }
 
-        public void InsertNewNodaAfterNoda(Node newNode)
+        public Node ProvideNextNode()
+        {
+            return NextNode;
+        }
+
+        public Node ProvidePreviousNode()
+        {
+            return PreviousNode;
+        }
+
+        public bool IsNextNodeNull()
+        {
+            return NextNode == null ? true : false;
+        }
+
+        public bool IsPreviousNodeNull()
+        {
+            return PreviousNode == null ? true : false;
+        }
+
+        public void InsertNewNodeAfterNode(Node newNode)
         {
             newNode.NextNode = NextNode;
             newNode.PreviousNode = this;
@@ -38,6 +58,5 @@ namespace DoublyLinkedListProject.Models
             PreviousNode.NextNode = newNode;
             PreviousNode = newNode;
         }
-
     }
 }
