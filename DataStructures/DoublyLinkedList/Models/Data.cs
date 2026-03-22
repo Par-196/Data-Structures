@@ -16,5 +16,10 @@ namespace DoublyLinkedListProject.Models
             FirstName = firstName;
             LastName = lastName;
         }
+
+        public string ShowDataInfo()
+        {
+            return $"{FirstName},{LastName}";
+        }
     }
 }
