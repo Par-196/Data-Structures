@@ -50,10 +50,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BinaryTree\BinaryTree.csproj">
-      <Project>{fc79bdad-d8cf-4212-b484-0599d86c4820}</Project>
-      <Name>BinaryTree</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DoublyLinkedList\DoublyLinkedListProject.csproj">
       <Project>{ef56d931-5cc2-4c15-95db-8bd2f6c1077c}</Project>
       <Name>DoublyLinkedListProject</Name>

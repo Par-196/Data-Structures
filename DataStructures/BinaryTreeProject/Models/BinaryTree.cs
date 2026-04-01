@@ -8,6 +8,28 @@ namespace BinaryTreeProject.Models
 {
     public class BinaryTree
     {
-        public Root root { get; set; }
+        public Root Root { get; set; }
+
+        public BinaryTree(Root root) 
+        {
+            Root = root;
+        }
+
+        public void Insert(int key)
+        { 
+            
+        }
+        public Root Search(int key)
+        {
+            return Root;
+        }
+        public void DestroyTree()
+        {
+
+        }
+        public void ShowBinaryTree()
+        {
+
+        }
     }
 }
