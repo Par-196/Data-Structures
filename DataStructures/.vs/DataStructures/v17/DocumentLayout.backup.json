@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC79BDAD-D8CF-4212-B484-0599D86C4820}|BinaryTree\\BinaryTree.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\binarytree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC79BDAD-D8CF-4212-B484-0599D86C4820}|BinaryTree\\BinaryTree.csproj|solutionrelative:binarytree\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\binarytreeproject\\models\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|solutionrelative:binarytreeproject\\models\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\doublylinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|solutionrelative:doublylinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\binarytreeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|solutionrelative:binarytreeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\doublylinkedlist\\models\\doublylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|solutionrelative:doublylinkedlist\\models\\doublylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\doublylinkedlist\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|solutionrelative:doublylinkedlist\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\doublylinkedlist\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|solutionrelative:doublylinkedlist\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\binarytreeproject\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|solutionrelative:binarytreeproject\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Program.cs",
-              "RelativeDocumentMoniker": "DoublyLinkedList\\Program.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Program.cs",
-              "RelativeToolTip": "DoublyLinkedList\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\BinaryTreeProject\\Program.cs",
+              "RelativeDocumentMoniker": "BinaryTreeProject\\Program.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\BinaryTreeProject\\Program.cs",
+              "RelativeToolTip": "BinaryTreeProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T16:15:11.917Z",
+              "WhenOpened": "2026-04-04T02:41:14.681Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BinaryTree.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\BinaryTreeProject\\Models\\BinaryTree.cs",
+              "RelativeDocumentMoniker": "BinaryTreeProject\\Models\\BinaryTree.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\BinaryTreeProject\\Models\\BinaryTree.cs",
+              "RelativeToolTip": "BinaryTreeProject\\Models\\BinaryTree.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAjwCcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T16:48:10.659Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DoublyLinkedList.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\DoublyLinkedList.cs",
-              "RelativeDocumentMoniker": "DoublyLinkedList\\Models\\DoublyLinkedList.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\DoublyLinkedList.cs",
-              "RelativeToolTip": "DoublyLinkedList\\Models\\DoublyLinkedList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANcAAAAJAAAAAAAAAA==",
+              "Title": "Root.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\BinaryTreeProject\\Models\\Root.cs",
+              "RelativeDocumentMoniker": "BinaryTreeProject\\Models\\Root.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\BinaryTreeProject\\Models\\Root.cs",
+              "RelativeToolTip": "BinaryTreeProject\\Models\\Root.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAADUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T16:16:07.59Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Node.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\Node.cs",
-              "RelativeDocumentMoniker": "DoublyLinkedList\\Models\\Node.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\Node.cs",
-              "RelativeToolTip": "DoublyLinkedList\\Models\\Node.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T16:15:52.887Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Data.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\Data.cs",
-              "RelativeDocumentMoniker": "DoublyLinkedList\\Models\\Data.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\Data.cs",
-              "RelativeToolTip": "DoublyLinkedList\\Models\\Data.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T16:37:04.402Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\BinaryTree\\Program.cs",
-              "RelativeDocumentMoniker": "BinaryTree\\Program.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\BinaryTree\\Program.cs",
-              "RelativeToolTip": "BinaryTree\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T16:28:10.238Z",
+              "WhenOpened": "2026-04-01T16:48:29.866Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

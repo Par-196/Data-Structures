@@ -10,14 +10,14 @@ namespace DoublyLinkedListProject.Models
 {
     public class Node
     {
-        private Data Date { get; set; }
+        private Data Data { get; set; }
         private Node NextNode { get; set; }
         private Node PreviousNode { get; set; }
 
 
         public Node(Data data)
         {
-            Date = data;
+            Data = data;
             NextNode = null;
             PreviousNode = null;
         }
@@ -77,19 +77,19 @@ namespace DoublyLinkedListProject.Models
 
         public void RemovePreviousNode()
         {
-            Date = null;
+            Data = null;
             PreviousNode = null;
         }
 
         public void RemoveNextNode()
         {
-            Date = null;
+            Data = null;
             NextNode = null;
         }
         
         public Data GetData()
         {
-            return Date;
+            return Data;
         }
 
         public string ShowInfo()
@@ -113,41 +113,41 @@ namespace DoublyLinkedListProject.Models
 
         public string ShowWithoutPreviousNode()
         {
-            string next = NextNode != null ? NextNode.Date.ShowDataInfo() : "null";
+            string next = NextNode != null ? NextNode.Data.ToString() : "null";
 
             return "┌──────────────────────────────\n" +
                     $"│ Prev : null\n" +
-                    $"│ This : {Date.ShowDataInfo()}\n" +
+                    $"│ This : {Data.ToString()}\n" +
                     $"│ Next : {next}\n" +
                     "└──────────────────────────────";
         }
 
         public string ShowNode()
         {
-            string prev = PreviousNode != null ? PreviousNode.Date.ShowDataInfo() : "null";
-            string next = NextNode != null ? NextNode.Date.ShowDataInfo() : "null";
+            string prev = PreviousNode != null ? PreviousNode.Data.ToString() : "null";
+            string next = NextNode != null ? NextNode.Data.ToString() : "null";
 
             return "┌──────────────────────────────\n" +
                     $"│ Prev : {prev}\n" +
-                    $"│ This : {Date.ShowDataInfo()}\n" +
+                    $"│ This : {Data.ToString()}\n" +
                     $"│ Next : {next}\n" +
                     "└──────────────────────────────";
         }
 
         public string ShowWithoutNextNode()
         {
-            string prev = PreviousNode != null ? PreviousNode.Date.ShowDataInfo() : "null";
+            string prev = PreviousNode != null ? PreviousNode.Data.ToString() : "null";
 
             return "┌──────────────────────────────\n" +
                     $"│ Prev : {prev}\n" +
-                    $"│ This : {Date.ShowDataInfo()}\n" +
+                    $"│ This : {Data.ToString()}\n" +
                     $"│ Next : null\n" +
                     "└──────────────────────────────";
         }
 
         public override string ToString()
         {
-            return $"ThisNode - {Date.ShowDataInfo()}";
+            return $"ThisNode - {Data.ToString()}";
         }
 
     }
