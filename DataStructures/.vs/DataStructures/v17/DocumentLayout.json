@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\doublylinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|solutionrelative:doublylinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37D6C354-1E9D-4DBB-813A-B0CE28B08127}|DictionaryProject\\DictionaryProject.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\dictionaryproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D6C354-1E9D-4DBB-813A-B0CE28B08127}|DictionaryProject\\DictionaryProject.csproj|solutionrelative:dictionaryproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\doublylinkedlist\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|solutionrelative:doublylinkedlist\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\doublylinkedlist\\models\\doublylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF56D931-5CC2-4C15-95DB-8BD2F6C1077C}|DoublyLinkedList\\DoublyLinkedListProject.csproj|solutionrelative:doublylinkedlist\\models\\doublylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37D6C354-1E9D-4DBB-813A-B0CE28B08127}|DictionaryProject\\DictionaryProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\dictionaryproject\\models\\customdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D6C354-1E9D-4DBB-813A-B0CE28B08127}|DictionaryProject\\DictionaryProject.csproj|solutionrelative:dictionaryproject\\models\\customdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,42 +24,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Program.cs",
-              "RelativeDocumentMoniker": "DoublyLinkedList\\Program.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Program.cs",
-              "RelativeToolTip": "DoublyLinkedList\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DictionaryProject\\Program.cs",
+              "RelativeDocumentMoniker": "DictionaryProject\\Program.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DictionaryProject\\Program.cs",
+              "RelativeToolTip": "DictionaryProject\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwB0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T16:34:36.778Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DoublyLinkedList.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\DoublyLinkedList.cs",
-              "RelativeDocumentMoniker": "DoublyLinkedList\\Models\\DoublyLinkedList.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\DoublyLinkedList.cs",
-              "RelativeToolTip": "DoublyLinkedList\\Models\\DoublyLinkedList.cs",
-              "ViewState": "AgIAAL4AAAAAAAAAAAAYwNEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T16:28:41.134Z",
+              "WhenOpened": "2026-04-05T16:56:25.83Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Node.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\Node.cs",
-              "RelativeDocumentMoniker": "DoublyLinkedList\\Models\\Node.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DoublyLinkedList\\Models\\Node.cs",
-              "RelativeToolTip": "DoublyLinkedList\\Models\\Node.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAnwFMAAAAJAAAAAAAAAA==",
+              "Title": "CustomDictionary.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DictionaryProject\\Models\\CustomDictionary.cs",
+              "RelativeDocumentMoniker": "DictionaryProject\\Models\\CustomDictionary.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\DictionaryProject\\Models\\CustomDictionary.cs",
+              "RelativeToolTip": "DictionaryProject\\Models\\CustomDictionary.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T16:28:41.12Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-04-05T17:35:09.339Z",
               "EditorCaption": ""
             }
           ]
