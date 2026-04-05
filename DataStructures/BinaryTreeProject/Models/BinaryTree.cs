@@ -8,87 +8,65 @@ using System.Threading.Tasks;
 
 namespace BinaryTreeProject.Models
 {
-    public class BinaryTree
+    public class BinaryTree<T> where T : IComparable<T>
     {
-        private Root Root { get; set; }
+        private Root<T> Root { get; set; }
 
-        public BinaryTree(Root root) 
+        public BinaryTree() 
         {
-            Root = root;
+            Root = null;
         }
 
-        public void Insert(Root newRoot)
+        public void Insert(T value)
         {
-            Root current = Root;
-            bool rootWasInserted = false;
-            while (!rootWasInserted)
-            { 
-                if (newRoot.GetKey() > current.GetKey())
-                {
-                    if (current.GetRight() == null)
-                    {
-                        current.AddRigthRoot(newRoot);
-                        rootWasInserted = true;
-                        return;
-                    }
-                    current = current.GetRight();
-                }
-                else if (newRoot.GetKey() < current.GetKey())
-                {
+            if(Root == null)
+            {
+                Root = new Root<T>(value);
+                return;
+            }
 
-                    if (current.GetLeft() == null)
+            Root<T> current = Root;
+            var newValue = new Root<T>(value);
+
+            while (true)
+            {
+                if (value.CompareTo(current.GetValue()) >= 0)
+                {
+                    if (current.GetRightRoot() == null) 
                     {
-                        current.AddLeftRoot(newRoot);
-                        rootWasInserted = true;
+                        current.SetRigthRoot(newValue);
                         return;
                     }
-                    current = current.GetLeft();
+                    current = current.GetRightRoot();
                 }
-                else if (newRoot.GetKey() == Root.GetKey())
+                else
                 {
-                    Console.WriteLine("Duplicate key, try another");
+                    if (current.GetLeftRoot() == null)
+                    {
+                        current.SetLeftRoot(newValue);
+                        return;
+                    }
+                    current = current.GetLeftRoot();
                 }
             }
         }
 
-        public Root Search(Root lookingForRoot)
+        public Root<T> Search(T value)
         {
-            Root current = Root;
-            bool rootWasInserted = false;
-            while (!rootWasInserted)
+            Root<T> current = Root;
+
+            while (current != null)
             {
-                if (current == null)
-                    break;
-                if (lookingForRoot.GetKey() == current.GetKey())
+                if (value.CompareTo(current.GetValue()) == 0)
                 {
                     return current;
                 }
-                current = lookingForRoot.GetKey() < current.GetKey() 
-                    ? current.GetLeft() 
-                    : current.GetRight();
+                current = value.CompareTo(current.GetValue()) < 0
+                    ? current.GetLeftRoot() 
+                    : current.GetRightRoot();
             }
             Console.WriteLine("Root not found");
             return null; 
-        }
-
-        public Root Search(int lookingForRoot)
-        {
-            Root current = Root;
-            bool rootWasInserted = false;
-            while (!rootWasInserted)
-            {
-                if (current == null)
-                    break;
-                if (lookingForRoot == current.GetKey())
-                {
-                    return current;
-                }
-                current = lookingForRoot < current.GetKey()
-                    ? current.GetLeft()
-                    : current.GetRight();
-            }
-            Console.WriteLine("Root not found");
-            return null;
         }
 
         public void DestroyTree()
@@ -96,19 +74,22 @@ namespace BinaryTreeProject.Models
             Root = null;
         }
 
+
+
+        
         public void ShowBinaryTree()
         {
-            Root current = Root;
+            Root<T> current = Root;
             ShowIteration(current);
         }
 
-        private void ShowIteration(Root current)
+        private void ShowIteration(Root<T> current)
         {
             if (current == null)
                 return;
-            ShowIteration(current.GetLeft());
+            ShowIteration(current.GetLeftRoot());
             Console.WriteLine(current.ToString());
-            ShowIteration(current.GetRight());
+            ShowIteration(current.GetRightRoot());
         }
 
         public override string ToString()

@@ -7,57 +7,49 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace BinaryTreeProject.Models
 {
-    public class Root
+    public class Root<T>
     {
-        private int Key { get; set; }
-        private Data Data { get; set; }
-        private Root Left { get; set; }
-        private Root Right { get; set; }
+        private T Data { get; set; }
+        private Root<T> Left { get; set; }
+        public Root<T> Right { get; set; }
 
-        public Root(int key, Data data)
+        public Root(T data)
         {
-            Key = key;
             Data = data;
             Left = null;
             Right = null;
-            
         }
 
-        public int GetKey()
+        public T GetValue()
         { 
-            return Key;
+            return Data;
         }
 
-        public Root GetRight()
+        public Root<T> GetRightRoot()
         {
             return Right;
         }
 
-        public Root GetLeft() 
+        public Root<T> GetLeftRoot() 
         {
             return Left;
         }
 
-        public void AddLeftRoot(Root root)
+        public void SetLeftRoot(Root<T> root)
         {
             Left = root;
         }
 
-        public void AddRigthRoot(Root root)
+        public void SetRigthRoot(Root<T> root)
         {
             Right = root;
         }
 
-        public void DestroyRoot()
-        {
-            Data = null;
-        }
-
         public override string ToString()
         {
-            return "┌──────────────────────────────\n" +
-                    $"│ Key : {Key}\n" +
-                    "└──────────────────────────────";
+            return "┌───────────────\n" +
+                    $"│ Data : {Data.ToString()}\n" +
+                    "└───────────────";
         }
     }
 }

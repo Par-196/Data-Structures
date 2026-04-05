@@ -22,4 +22,6 @@ namespace BinaryTreeProject.Models
             return $"{FirstName},{LastName}";
         }
     }
+
+
 }

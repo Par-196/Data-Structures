@@ -50,6 +50,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BinaryTreeProject\BinaryTreeProject.csproj">
+      <Project>{9cc52e4d-75cc-428e-acfc-12556158a9d0}</Project>
+      <Name>BinaryTreeProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DictionaryProject\DictionaryProject.csproj">
+      <Project>{37d6c354-1e9d-4dbb-813a-b0ce28b08127}</Project>
+      <Name>DictionaryProject</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DoublyLinkedList\DoublyLinkedListProject.csproj">
       <Project>{ef56d931-5cc2-4c15-95db-8bd2f6c1077c}</Project>
       <Name>DoublyLinkedListProject</Name>
