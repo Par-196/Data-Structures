@@ -47,9 +47,7 @@ namespace BinaryTreeProject.Models
 
         public override string ToString()
         {
-            return "┌───────────────\n" +
-                    $"│ Data : {Data.ToString()}\n" +
-                    "└───────────────";
+            return Data.ToString();
         }
     }
 }

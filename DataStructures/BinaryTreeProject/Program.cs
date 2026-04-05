@@ -36,6 +36,10 @@ namespace BinaryTreeProject
 
 
             binaryTree.ShowBinaryTree();
+
+            Console.WriteLine(binaryTree.Search(85));
         }
+        
     }
+
 }
