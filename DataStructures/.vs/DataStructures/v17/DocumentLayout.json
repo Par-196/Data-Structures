@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|solutionrelative:binarytreeproject\\models\\binarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\binarytreeproject\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\binarytreeproject\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|solutionrelative:binarytreeproject\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\binarytreeproject\\models\\nodeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\binarytreeproject\\models\\nodeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|solutionrelative:binarytreeproject\\models\\nodeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|d:\\program\\microsoft visual studio\\github\\data-structures\\datastructures\\binarytreeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\binarytreeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CC52E4D-75CC-428E-ACFC-12556158A9D0}|BinaryTreeProject\\BinaryTreeProject.csproj|solutionrelative:binarytreeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,8 +39,7 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T12:41:48.618Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -50,7 +49,7 @@
               "RelativeDocumentMoniker": "BinaryTreeProject\\Models\\BinaryTree.cs",
               "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Data-Structures\\DataStructures\\BinaryTreeProject\\Models\\BinaryTree.cs",
               "RelativeToolTip": "BinaryTreeProject\\Models\\BinaryTree.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAcwF0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAcwGEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T12:44:16.652Z",
               "IsPinned": true,
@@ -67,8 +66,7 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAAswBYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T12:46:26.224Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "BinaryTreeProject\\Models\\NodeInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T16:26:08.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T16:26:08.253Z"
             }
           ]
         },
