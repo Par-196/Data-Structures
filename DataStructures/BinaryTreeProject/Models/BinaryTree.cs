@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,7 +28,6 @@ namespace BinaryTreeProject.Models
                     if (current.GetRight() == null)
                     {
                         current.AddRigthRoot(newRoot);
-                        Console.WriteLine("Inserted right");
                         rootWasInserted = true;
                         return;
                     }
@@ -38,7 +39,6 @@ namespace BinaryTreeProject.Models
                     if (current.GetLeft() == null)
                     {
                         current.AddLeftRoot(newRoot);
-                        Console.WriteLine("Inserted left");
                         rootWasInserted = true;
                         return;
                     }
@@ -91,47 +91,24 @@ namespace BinaryTreeProject.Models
             return null;
         }
 
-
         public void DestroyTree()
         {
-            Root current = Root;
-            Root rightSideBinaryTree = RightSideBinaryTree(current);
-            current = LeftSideBinaryTree(current);
-            while (current != rightSideBinaryTree.GetRight())
-            {
-
-            }
-
+            Root = null;
         }
 
         public void ShowBinaryTree()
         {
             Root current = Root;
-            Root rightSideBinaryTree = RightSideBinaryTree(current);
-            current = LeftSideBinaryTree(current);
-            while (current != rightSideBinaryTree.GetRight())
-            { 
-                
-            }
-
+            ShowIteration(current);
         }
 
-        public Root LeftSideBinaryTree(Root current)
+        private void ShowIteration(Root current)
         {
-            if (current.GetLeft() == null)
-                return current;
-            current = current.GetLeft();
-            LeftSideBinaryTree(current);
-            return null;
-        }
-
-        public Root RightSideBinaryTree(Root current)
-        {
-            if (current.GetRight() == null)
-                return current;
-            current = current.GetRight();
-            RightSideBinaryTree(current);
-            return null;
+            if (current == null)
+                return;
+            ShowIteration(current.GetLeft());
+            Console.WriteLine(current.ToString());
+            ShowIteration(current.GetRight());
         }
 
         public override string ToString()

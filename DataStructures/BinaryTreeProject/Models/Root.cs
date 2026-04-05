@@ -48,11 +48,15 @@ namespace BinaryTreeProject.Models
             Right = root;
         }
 
+        public void DestroyRoot()
+        {
+            Data = null;
+        }
+
         public override string ToString()
         {
             return "┌──────────────────────────────\n" +
                     $"│ Key : {Key}\n" +
-                    $"│ Data : {Data.ToString()}\n" +
                     "└──────────────────────────────";
         }
     }
