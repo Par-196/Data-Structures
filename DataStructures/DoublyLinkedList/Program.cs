@@ -11,25 +11,21 @@ namespace DoublyLinkedListProject
     {
         static void Main(string[] args)
         {
-            Data data = new Data("Walter", "White");
-            Node node = new Node(data);
+            var node = new Node<string>("Yura");
             
-            var doublyLinkedList = new DoublyLinkedList(node);
-            
-            Data data1 = new Data("Jesse", "Pinkman");
-            Node node1 = new Node(data1);
+            var doublyLinkedList = new DoublyLinkedList<string>(node);
 
-            doublyLinkedList.AddLast(data1);
+            var node1 = new Node<string>("Vova");
 
-            Data data2 = new Data("Saul", "Goodman");
-            Node node2 = new Node(data2);
+            doublyLinkedList.AddLast(node1);
 
-            doublyLinkedList.AddLast(data2);
+            var node2 = new Node<string>("Ivan");
 
-            Data data3 = new Data("Gus", "Fring");
-            Node node3 = new Node(data3);
+            doublyLinkedList.AddLast("Ivan");
 
-            doublyLinkedList.AddLast(data3);
+            var node3 = new Node<string>("Vitalik");
+
+            doublyLinkedList.AddLast("Vitalik");
 
             doublyLinkedList.ShowAllNodes();
 

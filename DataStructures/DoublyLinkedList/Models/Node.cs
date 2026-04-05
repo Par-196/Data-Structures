@@ -8,26 +8,26 @@ using System.Xml.Serialization;
 
 namespace DoublyLinkedListProject.Models
 {
-    public class Node
+    public class Node<T>
     {
-        private Data Data { get; set; }
-        private Node NextNode { get; set; }
-        private Node PreviousNode { get; set; }
+        private T Data { get; set; }
+        private Node<T> NextNode { get; set; }
+        private Node<T> PreviousNode { get; set; }
 
 
-        public Node(Data data)
+        public Node(T data)
         {
             Data = data;
             NextNode = null;
             PreviousNode = null;
         }
 
-        public Node ProvideNextNode()
+        public Node<T> ProvideNextNode()
         {
             return NextNode;
         }
 
-        public Node ProvidePreviousNode()
+        public Node<T> ProvidePreviousNode()
         {
             return PreviousNode;
         }
@@ -42,7 +42,7 @@ namespace DoublyLinkedListProject.Models
             return PreviousNode == null ? true : false;
         }
 
-        public void InsertNewNodeAfterNode(Node newNode)
+        public void InsertNewNodeAfterNode(Node<T> newNode)
         {
             NextNode.PreviousNode = newNode;
 
@@ -52,13 +52,13 @@ namespace DoublyLinkedListProject.Models
             NextNode = newNode;
         }
 
-        public void InsertNewNodeInTailAfterNode(Node newNode)
+        public void InsertNewNodeInTailAfterNode(Node<T> newNode)
         {
             newNode.PreviousNode = this;
             NextNode = newNode;
         }
 
-        public void InsertNewNodaBeforeNoda(Node newNode)
+        public void InsertNewNodaBeforeNoda(Node<T> newNode)
         {
             PreviousNode.NextNode = newNode;
 
@@ -68,7 +68,7 @@ namespace DoublyLinkedListProject.Models
             PreviousNode = newNode;
         }
 
-        public void InsertNewNodeInHeadBeforeNode(Node newNode)
+        public void InsertNewNodeInHeadBeforeNode(Node<T> newNode)
         {
             newNode.NextNode = this;
             PreviousNode = newNode;
@@ -77,17 +77,15 @@ namespace DoublyLinkedListProject.Models
 
         public void RemovePreviousNode()
         {
-            Data = null;
             PreviousNode = null;
         }
 
         public void RemoveNextNode()
         {
-            Data = null;
             NextNode = null;
         }
         
-        public Data GetData()
+        public T GetData()
         {
             return Data;
         }

@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace DoublyLinkedListProject.Models
 {
-    public class DoublyLinkedList
+    public class DoublyLinkedList<T>
     {
-        private Node Head { get; set; }
-        private Node Tail { get; set; }
+        private Node<T> Head { get; set; }
+        private Node<T> Tail { get; set; }
         private int Count { get; set; }
 
 
-        public DoublyLinkedList(Node node)
+        public DoublyLinkedList(Node<T> node)
         {
             Head = node;
             Tail = node;
             Count++;
         }
 
-        public void AddAfter(Node node, Node newNode)
+        public void AddAfter(Node<T> node, Node<T> newNode)
         {
             if (Count == 0)
             {
@@ -40,18 +40,18 @@ namespace DoublyLinkedListProject.Models
             }
         }
 
-        public void AddAfter(Node node, Data data)
+        public void AddAfter(Node<T> node, T data)
         {
             if (Count == 0)
             {
                 Console.WriteLine("You can`t use this method when list is null");
                 return;
             } 
-            Node newNode = new Node(data);
+            Node<T> newNode = new Node<T>(data);
             AddAfter(node, newNode);
         }
 
-        public void AddBefore(Node node, Node newNode)
+        public void AddBefore(Node<T> node, Node<T> newNode)
         {
             if (Count == 0)
             {
@@ -71,18 +71,18 @@ namespace DoublyLinkedListProject.Models
             }
         }
 
-        public void AddBefore(Node node, Data data)
+        public void AddBefore(Node<T> node, T data)
         {
             if (Count == 0)
             {
                 Console.WriteLine("You can`t use this method when list is null");
                 return;
             }
-            Node newNode = new Node(data);
+            Node<T> newNode = new Node<T>(data);
             AddBefore(node, newNode);
         }
 
-        public void AddFirst(Node newNode)
+        public void AddFirst(Node<T> newNode)
         {
             if (Head == null)
             {
@@ -97,9 +97,9 @@ namespace DoublyLinkedListProject.Models
             Count++;
         }
 
-        public void AddFirst(Data data)
+        public void AddFirst(T data)
         {
-            Node newNode = new Node(data);
+            Node<T> newNode = new Node<T>(data);
             if (Head == null)
             {
                 Head = newNode;
@@ -113,7 +113,7 @@ namespace DoublyLinkedListProject.Models
             Count++;
         }
 
-        public void AddLast(Node newNode)
+        public void AddLast(Node<T> newNode)
         {
             if (Head == null)
             {
@@ -128,9 +128,9 @@ namespace DoublyLinkedListProject.Models
             Count++;
         }
 
-        public void AddLast(Data data)
+        public void AddLast(T data)
         {
-            Node newNode = new Node(data);
+            Node<T> newNode = new Node<T>(data);
             if (Head == null)
             {
                 Head = newNode;
@@ -169,7 +169,7 @@ namespace DoublyLinkedListProject.Models
             Count--;
         }
 
-        public Node Find(Data value)
+        public Node<T> Find(T value)
         {
             if (Count == 0)
             {
@@ -178,10 +178,10 @@ namespace DoublyLinkedListProject.Models
             else
             {
                 int count = Count;
-                Node iterateNode = Head;
+                Node<T> iterateNode = Head;
                 while (count > 0)
                 {
-                    if (iterateNode.GetData() == value)
+                    if (iterateNode.GetData().Equals(value))
                     { 
                         return iterateNode;
                     }
@@ -191,7 +191,7 @@ namespace DoublyLinkedListProject.Models
             return null;
         }
 
-        public bool Contains(Data value)
+        public bool Contains(T value)
         {
             if (Count == 0)
             {
@@ -200,10 +200,10 @@ namespace DoublyLinkedListProject.Models
             else
             {
                 int count = Count;
-                Node iterateNode = Head;
+                Node<T> iterateNode = Head;
                 while (count > 0)
                 {
-                    if (iterateNode.GetData() == value)
+                    if (iterateNode.GetData().Equals(value))
                     {
                         return true;
                     }
@@ -232,7 +232,7 @@ namespace DoublyLinkedListProject.Models
             }
 
             int count = Count;
-            Node iterateNode = Head;
+            Node<T> iterateNode = Head;
             while (count > 0)
             {
                 Console.WriteLine(iterateNode.ShowInfo());

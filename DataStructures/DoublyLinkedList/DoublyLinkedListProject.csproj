@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Data.cs" />
     <Compile Include="Models\DoublyLinkedList.cs" />
     <Compile Include="Models\Node.cs" />
     <Compile Include="Program.cs" />
