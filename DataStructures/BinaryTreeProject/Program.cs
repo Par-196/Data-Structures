@@ -11,8 +11,6 @@ namespace BinaryTreeProject
     {
         static void Main(string[] args)
         {
-            Data data = new Data("Walter", "White");
-
             BinaryTree<int> binaryTree = new BinaryTree<int>();
             
 

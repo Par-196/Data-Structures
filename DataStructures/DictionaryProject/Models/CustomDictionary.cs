@@ -75,7 +75,7 @@ namespace DictionaryProject.Models
             return false;
         }
 
-        public bool Remove(TKey key, out TValue value)
+        public bool TryRemove(TKey key, out TValue value)
         {
             foreach (var item in _list)
             {
@@ -87,7 +87,7 @@ namespace DictionaryProject.Models
                     return true;
                 }
             }
-            value = default(TValue);
+            value = default;
             return false;
         }
 
@@ -101,7 +101,7 @@ namespace DictionaryProject.Models
                     return true;
                 }
             }
-            value = default(TValue);
+            value = default;
             return false;
         }
 
@@ -138,7 +138,6 @@ namespace DictionaryProject.Models
             foreach (var item in _list)
             {
                 yield return item;
-                //_list.GetEnumerator();
             }
         }
 

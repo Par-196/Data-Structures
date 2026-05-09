@@ -15,17 +15,13 @@ namespace DoublyLinkedListProject
             
             var doublyLinkedList = new DoublyLinkedList<string>(node);
 
-            var node1 = new Node<string>("Vova");
-
-            doublyLinkedList.AddLast(node1);
-
-            var node2 = new Node<string>("Ivan");
-
             doublyLinkedList.AddLast("Ivan");
 
-            var node3 = new Node<string>("Vitalik");
-
             doublyLinkedList.AddLast("Vitalik");
+
+            doublyLinkedList.AddFirst("Artur");
+
+            doublyLinkedList.AddAfter(node, "Rostyk");
 
             doublyLinkedList.ShowAllNodes();
 

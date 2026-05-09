@@ -20,25 +20,6 @@ namespace DoublyLinkedListProject.Models
             Count++;
         }
 
-        public void AddAfter(Node<T> node, Node<T> newNode)
-        {
-            if (Count == 0)
-            {
-                Console.WriteLine("You can`t use this method when list is null");
-                return;
-            }
-            if (node.IsNextNodeNull())
-            {
-                node.InsertNewNodeInTailAfterNode(newNode);
-                Tail = newNode;
-                Count++;
-            }
-            else
-            {
-                node.InsertNewNodeAfterNode(newNode);
-                Count++;
-            }
-        }
 
         public void AddAfter(Node<T> node, T data)
         {
@@ -51,25 +32,6 @@ namespace DoublyLinkedListProject.Models
             AddAfter(node, newNode);
         }
 
-        public void AddBefore(Node<T> node, Node<T> newNode)
-        {
-            if (Count == 0)
-            {
-                Console.WriteLine("You can`t use this method when list is null");
-                return;
-            }
-            if (node.IsPreviousNodeNull())
-            {
-                node.InsertNewNodeInHeadBeforeNode(newNode);
-                Head = newNode;
-                Count++;
-            }
-            else
-            {
-                node.InsertNewNodaBeforeNoda(newNode);
-                Count++;
-            }
-        }
 
         public void AddBefore(Node<T> node, T data)
         {
@@ -82,20 +44,6 @@ namespace DoublyLinkedListProject.Models
             AddBefore(node, newNode);
         }
 
-        public void AddFirst(Node<T> newNode)
-        {
-            if (Head == null)
-            {
-                Head = newNode;
-                Tail = newNode;
-            }
-            else
-            {
-                Head.InsertNewNodeInHeadBeforeNode(newNode);
-                Head = newNode;
-            }
-            Count++;
-        }
 
         public void AddFirst(T data)
         {
@@ -109,21 +57,6 @@ namespace DoublyLinkedListProject.Models
             {
                 Head.InsertNewNodeInHeadBeforeNode(newNode);
                 Head = newNode;
-            }
-            Count++;
-        }
-
-        public void AddLast(Node<T> newNode)
-        {
-            if (Head == null)
-            {
-                Head = newNode;
-                Tail = newNode;
-            }
-            else
-            {
-                Tail.InsertNewNodeInTailAfterNode(newNode);
-                Tail = newNode;
             }
             Count++;
         }
@@ -238,6 +171,48 @@ namespace DoublyLinkedListProject.Models
                 Console.WriteLine(iterateNode.ShowInfo());
                 iterateNode = iterateNode.ProvideNextNode();
                 count--;
+            }
+        }
+
+
+        private void AddAfter(Node<T> node, Node<T> newNode)
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("You can`t use this method when list is null");
+                return;
+            }
+            if (node.IsNextNodeNull())
+            {
+                node.InsertNewNodeInTailAfterNode(newNode);
+                Tail = newNode;
+                Count++;
+            }
+            else
+            {
+                node.InsertNewNodeAfterNode(newNode);
+                Count++;
+            }
+        }
+
+
+        private void AddBefore(Node<T> node, Node<T> newNode)
+        {
+            if (Count == 0)
+            {
+                Console.WriteLine("You can`t use this method when list is null");
+                return;
+            }
+            if (node.IsPreviousNodeNull())
+            {
+                node.InsertNewNodeInHeadBeforeNode(newNode);
+                Head = newNode;
+                Count++;
+            }
+            else
+            {
+                node.InsertNewNodeBeforeNode(newNode);
+                Count++;
             }
         }
     }

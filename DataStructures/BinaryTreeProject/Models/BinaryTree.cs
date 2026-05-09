@@ -16,6 +16,7 @@ namespace BinaryTreeProject.Models
         public BinaryTree() 
         {
             Root = null;
+            Count = 0;
         }
 
         public void Insert(T value)

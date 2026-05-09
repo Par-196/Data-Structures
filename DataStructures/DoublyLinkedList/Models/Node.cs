@@ -34,12 +34,12 @@ namespace DoublyLinkedListProject.Models
         
         public bool IsNextNodeNull()
         {
-            return NextNode == null ? true : false;
+            return NextNode == null;
         }
 
         public bool IsPreviousNodeNull()
         {
-            return PreviousNode == null ? true : false;
+            return PreviousNode == null;
         }
 
         public void InsertNewNodeAfterNode(Node<T> newNode)
@@ -58,7 +58,7 @@ namespace DoublyLinkedListProject.Models
             NextNode = newNode;
         }
 
-        public void InsertNewNodaBeforeNoda(Node<T> newNode)
+        public void InsertNewNodeBeforeNode(Node<T> newNode)
         {
             PreviousNode.NextNode = newNode;
 

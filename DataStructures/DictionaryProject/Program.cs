@@ -27,6 +27,11 @@ namespace DictionaryProject
             customDictionary.Add(9, "Hannah");
             customDictionary.Add(10, "Ivan");
 
+            //foreach (var item in customDictionary)
+            //{
+            //    Console.WriteLine($"Key - {item.Key}, Value - {item.Value}");
+            //}
+
             customDictionary.PrintDictionary();
         }
     }
